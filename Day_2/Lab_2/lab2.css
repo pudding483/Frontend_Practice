@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: lightblue;
+
+  /*text part*/
+  text-align: center;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card hr {
+  border-top: 1px solid #666;
+  border-style: dashed;
+
+  margin: 20px;
+}
+
+.card .intro p {
+  font-size: 16px;
+}
