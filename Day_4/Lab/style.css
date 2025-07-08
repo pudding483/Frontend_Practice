@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid lightsalmon;
+}
+
+.textBox {
+  display: flex;
+  gap: 10px;
+}
+
+.textBox .bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textBox .gray {
+  color: gray;
+  font-size: 20px;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.buttonBox a {
+  color: darkgray;
+  font-size: large;
+  text-decoration: none;
+}
+
+.hero {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  align-items: flex-start;
+
+  margin-top: 40px;
+}
+
+.hero .heroText {
+  width: 45%;
+  /* direction is optional since only 1 button */
+  flex-direction: column;
+}
+
+.hero .heroText .short_conclusion {
+  font-size: 20px;
+}
+
+.hero .heroText .scenario {
+  font-size: 16px;
+  color: gray;
+  line-height: 1.5;
+}
+
+.hero .heroText .button {
+  width: 150px;
+  height: 40px;
+  /* padding: <up and down> <left and right> */
+  padding: 0 2.25em;
+  color: #f56a6a;
+  border: 2px solid #f56a6a;
+  background-color: transparent;
+  border-radius: 0.375em;
+
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+img {
+  width: 45%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.line {
+  width: 90%;
+  height: 1.15px;
+  /* DO NOT use color it won't affect <div> */
+  /* color: gray; */
+  background-color: #d3d3d3;
+  margin-top: 40px;
+}
