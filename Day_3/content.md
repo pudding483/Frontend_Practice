@@ -14,3 +14,5 @@
 │   └── sticky : 相比於 fixed sticky 只能在限定範圍內固定
 └── z-index : 決定圖層層級
 ```
+
+目標 : 實作一個 header (用 sticky 或是 fixed)
