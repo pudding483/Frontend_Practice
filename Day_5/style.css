@@ -1,0 +1,37 @@
+@keyframes LR_bouncingback {
+  0% {
+  }
+
+  50% {
+    left: 25%;
+    background-color: yellow;
+  }
+
+  100% {
+    left: 50%;
+    background-color: blue;
+  }
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  /* margin: top right bottom left */
+  margin: 50px 0 0 50px;
+  position: relative;
+  left: 0;
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* must add time duration or animation won't work */
+  animation: LR_bouncingback 5s linear infinite alternate;
+  /*
+  animation: LR_bouncingback;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+    */
+}

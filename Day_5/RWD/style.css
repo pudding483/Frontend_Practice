@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .nav-bar {
+    height: auto;
+    padding: 10px;
+    /* double insurace */
+    margin: 50px auto 0 auto;
+    background-color: blue;
+
+    flex-direction: column;
+  }
+}
+
+.nav-bar {
+  width: 90%;
+  /* height: 40px; */
+  /* use min-height to dynamic adjustment */
+  min-height: 40px;
+  margin: 50px 5% 0 5%;
+  background-color: aqua;
+  /* use box-sizing make sure in phone mode */
+  /* it won't out of bound */
+  box-sizing: border-box;
+
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bar .button {
+  /* Don't want to fulfill all bar */
+  /* flex: 1; */
+  font-size: large;
+  padding: 5px;
+  margin: 5px 0 5px 0;
+  border-radius: 5px;
+  background-color: firebrick;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
