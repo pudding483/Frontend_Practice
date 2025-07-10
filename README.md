@@ -1,2 +1,3 @@
 # Frontend_Practice
-Pracitce Fortend (Including html, css, js)
+
+Practice Frontend (Including html, css, js)
