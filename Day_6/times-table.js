@@ -10,7 +10,7 @@ while (mutiplier <= 9) {
     // or it would be global variable
     let product = mutiplicand * mutiplier;
 
-    // use <expression>.padend() to pad space until 12 char
+    // use <expression>.padend() to pad space until 10 char
     console.log(`${mutiplicand}*${mutiplier} = ${product}`.padEnd(10));
     // or using process.stdout.write
 

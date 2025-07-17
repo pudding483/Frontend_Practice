@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <meta charset="UTF-8" />
+    <!-- viewport using in RWD -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div class="square">I am a square</div>
+    <div class="container">
+      <div class="bulletin">
+        <p class="topic">My ToDo List</p>
+
+        <div class="innerButton">
+          <input id="toDoInput" type="text" class="input" />
+
+          <button id="addButton" class="addButton">ADD</button>
+        </div>
+
+        <!--In order not to change the style of topic and innerButton-->
+        <div class="toDoList">
+          <!-- Example :
+          <div class="toDoItem">
+            <div class="leftBox">
+              <input type="checkBox" name="toDoDone" class="checkBox" />
+              <p class="toDo">123</p>
+            </div>
+
+            <button class="deleteButton">X</button>
+          </div> 
+          -->
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
   </body>
 </html>
