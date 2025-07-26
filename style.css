@@ -62,9 +62,10 @@
 
 .innerButton .addButton {
   width: 50px;
-  color: white;
 
+  color: white;
   background-color: #4caf50;
+
   border: none;
   border-radius: 4px;
 
