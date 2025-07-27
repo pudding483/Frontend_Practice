@@ -1,0 +1,96 @@
+.appContainer {
+  width: 40%;
+  height: 60vh;
+
+  padding-bottom: 10px;
+  gap: 10px;
+
+  background-color: rgb(38, 186, 235);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.appContainer h2 {
+  font-size: 35px;
+}
+
+.appContainer .counterNumber {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.appContainer .buttonContainer {
+  width: 100%;
+
+  gap: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttonContainer .addButton {
+  width: 15%;
+  aspect-ratio: 1 / 1;
+
+  margin: 0 20px;
+
+  border: none;
+  border-radius: 50%;
+
+  color: white;
+  background-color: rgb(68, 67, 67);
+
+  font-size: xx-large;
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+}
+
+.buttonContainer .subtractButton {
+  width: 15%;
+  aspect-ratio: 1 / 1;
+
+  margin: 0 20px;
+
+  border: none;
+  border-radius: 50%;
+
+  color: white;
+  background-color: rgb(68, 67, 67);
+
+  font-size: xx-large;
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+}
+
+.buttonContainer .resetButton {
+  width: 15%;
+  aspect-ratio: 1 / 1;
+
+  margin: 0 20px;
+
+  border: none;
+  border-radius: 50%;
+
+  color: white;
+  background-color: rgb(68, 67, 67);
+
+  font-size: xx-large;
+
+  /* marginal adjustment */
+  padding-top: 7px;
+  padding-left: 10px;
+
+  cursor: pointer;
+}
